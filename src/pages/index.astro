@@ -1,0 +1,67 @@
+---;
+import Static from '../layouts/Static.astro';
+---
+<style>
+    div.land {
+        position: absolute;
+        white-space: nowrap;
+    }
+    h1.land {
+        font-size:10vw;
+        opacity:30%;
+        color:black;
+    }
+</style>
+
+<Static title="The Good Boi">
+	<div class="position-absolute start-50 translate-middle" style="top:37%;">
+        
+        <div class="land end-100">
+            <h1 class="land text-end">this is&nbsp;</h1>
+        </div>
+        <div class="land start-100">
+            <h1 class="land">.net!</h1>
+        </div>
+        
+        <h1 class="pop" style="font-size:10vw;">thegoodboi</h1>
+
+        <div class="pt-5 position-absolute start-50 translate-middle-x text-justify" style="width:100%; font-size:2.5vmin;">
+            Average high schooler who spends too much time on screens.
+            I'm mainly known for my work and mapping in the Beat Saber community, commonly remembered as the <a href="https://youtu.be/vueyLFN6Azg" target="_blank">Up & Down</a> guy.
+            I'm messing around with TypeScript and HTML, but coding is a lot less time consuming.
+            No idea what I wanna do with my life at this point!
+            <br><br>
+            <p class="text-center">So uh anyway... enjoy the janky website!</p>
+        </div>
+        
+    </div>
+
+    <footer>
+        <div class="position-absolute bottom-0 start-50 translate-middle-x w-100" style="height:10vw; max-height: 6%;">
+
+            <div class="position-absolute bottom-100 end-0 p-1 text-muted">
+                v1.0
+            </div>
+
+            <div class="w-100 h-100" style="background-color: rgba(0, 0, 0, 0.5)">
+
+                <div class="position-absolute start-50 translate-middle-x d-flex justify-content-evenly align-items-center h-100 fs-2 w-read-1600">
+                    <div class="p-2"><a href="https://beatsaver.com/profile/4284638" class="text-decoration-none">
+                        BeatSaver
+                    </a></div>
+                    <div class="p-2"><a href="https://www.youtube.com/channel/UC-aOekaRwdZTvdcTl2YBIRg" class="link-danger text-decoration-none">
+                        YouTube
+                    </a></div>
+                    <div class="p-2"><a href="https://github.com/TheGoodBoi411" class="link-success text-decoration-none">
+                        GitHub
+                    </a></div>
+                    <div class="p-2"><a href="#" onclick="window.alert(`User: TheGoodBoi#3330\nServer: I don't have one :troll:`)" class="link-info text-decoration-none">
+                        Discord
+                    </a></div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</Static>

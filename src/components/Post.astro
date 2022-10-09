@@ -1,0 +1,14 @@
+---
+const { title, date, id } = Astro.props;
+const url = "/dot-com/blog/" + id;
+---
+
+<a 
+    class="d-block text-decoration-none text-reset position-relative start-50 translate-middle-x border border-3 border-info p-3 pt-2 mt-4"
+    style="border-radius: 10px; width:fit-content;"
+    href={url}
+>
+    <h1>{title}</h1>
+    <p class="text-muted fst-italic fs-6 mb-2">{date}</p>
+    <p class="fs-5 mb-0"><slot></slot></p>
+</a>

@@ -1,0 +1,26 @@
+---;
+import Scroll from '../../layouts/Scroll.astro';
+import Post from '../../components/Post.astro';
+
+const posts = await Astro.glob('./*md');
+---
+
+<Scroll title="The Good Boi - Blog">
+
+    <h1 class="title pop">Blog</h1>
+    What is that guy up to?
+    <hr>
+
+    {posts.map((post) => (
+        <Post
+            title={post.frontmatter.title}
+            date={post.frontmatter.date}
+            id={post.frontmatter.id}
+        >
+        {post.frontmatter.desc}
+        </Post>
+    ))}
+
+    <br>
+
+</Scroll>
