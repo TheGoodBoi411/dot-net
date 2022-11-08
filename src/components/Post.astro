@@ -1,11 +1,12 @@
 ---
-const { title, date, id } = Astro.props;
+const { title, date, id, type } = Astro.props;
 const url = "/blog/" + id;
+const classes = "d-block text-decoration-none text-reset position-relative start-50 translate-middle-x p-3 pt-2 mt-4 border border-3 border-" + type;
 ---
 
 <a 
-    class="d-block text-decoration-none text-reset position-relative start-50 translate-middle-x border border-3 border-info p-3 pt-2 mt-4"
-    style="border-radius: 10px; width:fit-content;"
+    class={classes}
+    style="border-radius: 10px; width:25%;"
     href={url}
 >
     <h1>{title}</h1>

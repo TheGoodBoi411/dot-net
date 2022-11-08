@@ -5,6 +5,7 @@ title: "First Post"
 date: "October 1, 2022"
 desc: "I made a website! Why?"
 id: "first-post"
+type: "info"
 ---
 
 <div class="text-center" style="width:23%">

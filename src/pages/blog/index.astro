@@ -3,6 +3,7 @@ import Scroll from '../../layouts/Scroll.astro';
 import Post from '../../components/Post.astro';
 
 const posts = await Astro.glob('./*md');
+posts.reverse();
 ---
 
 <Scroll title="The Good Boi - Blog">
@@ -16,6 +17,7 @@ const posts = await Astro.glob('./*md');
             title={post.frontmatter.title}
             date={post.frontmatter.date}
             id={post.frontmatter.id}
+            type={post.frontmatter.type}
         >
         {post.frontmatter.desc}
         </Post>
