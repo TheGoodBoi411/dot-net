@@ -32,7 +32,7 @@ Give a man a playlist of HTML tutorials,  he- huh?
 A while ago I saw a YouTube Short about having your own website.
 I kept it in my mind, until I saw a [video](https://youtu.be/BZqzhmlTkAc) about someone's favorite personal websites.
 These unique websites - mostly the first one - inspired me to make my own.
-I started by making a landing page and the Beat Saber graphic you can see [here](../beat-saber).
+I started by making a landing page and the Beat Saber graphic you can see [here](../../beat-saber).
 Then I gave up.
 Turns out making a very nice website as your first is not easy.
 So, I moved on.
