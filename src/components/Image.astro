@@ -1,0 +1,10 @@
+---
+const { image, date, link } = Astro.props;
+---
+
+<div class="w-100 text-center">
+    <div class="position-relative start-50 translate-middle-x" style="width:85%"><a href={link}><img src={image} alt={image + " cover"} width="100%" style="border-radius:10px"></a></div>
+    <span class="text-muted fs-4">{date} - <slot></slot></span>
+</div>
+
+<br>
