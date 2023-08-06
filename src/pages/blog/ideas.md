@@ -20,5 +20,5 @@ A timer that is slightly longer or shorter than it seems.
 A good way to mess with people's heads!
 [Instuctions](/projects)
 
-### Gallery : <span class="text-success">Likely</span>
+### [Gallery](/gallery) : <span class="text-warning">Done</span>
 A random collection of images that I have, no other reason.
