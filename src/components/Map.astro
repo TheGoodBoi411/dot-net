@@ -4,11 +4,12 @@ const { song, cover, date, link } = Astro.props;
 
 <br>
 
-<h1>{song}<span class="text-muted fs-5"> {date}</span></h1>
-
-<div>
-    <div>
+<div class="container">
+    <div class="row mb-1">
+        <h1>{song}<span class="text-muted fs-5"> {date}</span></h1>
+    </div>
+    <div class="row">
         <div style="width:100%; max-width: min(200px,10vw);"><a href={link}><img src={cover} alt={song + " cover"} width="100%" style="border-radius:3%"></a></div>
-        <div class="p-2 ms-1" style="margin-top:-9px;"><slot></slot></div>
+        <div class="col" style="margin-top:-5px;"><slot></slot></div>
     </div>
 </div>
