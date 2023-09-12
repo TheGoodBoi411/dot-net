@@ -1,3 +1,6 @@
+import likeFullIcon from '../../public/icons/likeFull.svg';
+import likeIcon from '../../public/icons/like.svg';
+
 // game round
 let totalRounds = 5;
 
@@ -158,7 +161,7 @@ let perColor = "text-success";
 let points = 0;
 
 document.getElementById("guess").addEventListener('click', () => {
-    document.getElementById("likeBtnIcon").src = "../../public/icons/likeFull.svg";
+    document.getElementById("likeBtnIcon").src = likeFullIcon;
     document.getElementById("guess").disabled = true;
 
     let guess = document.getElementById("likes").value.replace(/,/gi, "");
@@ -205,6 +208,7 @@ document.getElementById("guess").addEventListener('click', () => {
 });
 
 document.getElementById("continue").addEventListener('click', () => {
+    document.getElementById("likeBtnIcon").src = likeIcon;
     document.getElementById("stats").style = "visibility:hidden;"
     document.getElementById("guess").disabled = false;
     document.getElementById("likes").value = "";
