@@ -1,0 +1,112 @@
+---;
+import NavMini from '../components/NavMini.astro';
+import Static from '../layouts/Static.astro';
+---
+
+<style>
+input{
+   text-align:center;
+}
+
+.stat {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+</style>
+
+<script src="../scripts/gtl.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> -->
+
+<Static title="TheGoodBoi - Guess the Likes">
+
+    <NavMini></NavMini>
+
+    <div class="position-absolute top-50 start-50 translate-middle text-center fs-5 w-100" id="startDiv">
+        <h1>Guess the Likes</h1>
+
+        <p style="margin-bottom: 12px;">
+            Given only a YouTube video and it's title, estimate how many people have smashed that like button!
+            <br>
+            You may recognise some videos, you may not, but I bet you haven't been paying attention to that like counter.
+        </p>
+
+        <form id="selectBox">
+            <div class="d-flex flex-row mb-3 w-100 justify-content-center">
+                <div class="p-2">
+                    <select class="form-select fs-4 px-3 pt-1" aria-label="choiche" style="width:clamp(150px,60vw,270px); height:50px;" id="choiche">
+                        <option selected>GoodBoi's Selection</option>
+                        <option value="1">SiIvagunner</option>
+                        <option value="2">Octagon</option>
+                    </select>
+                </div>
+                <div class="p-2">
+                    <button class="btn btn-lg btn-success fs-4 px-3 pt-1" type="button" id="start" style="width:clamp(80px,20vw,270px); height:50px;">Start</button> 
+                </div>
+            </div>
+        </form>
+
+        <p class="fst-italic" style="margin-top: -10px; text-emphasis:;" id="playlistDesc">
+            A selection of videos hand-picked by yours truly.
+        </p>
+        
+    </div>
+	
+    <div class="position-absolute top-50 start-50 translate-middle text-center" style="width: fit-content;" id="gameDiv" hidden="true">
+
+        <h1 class="mb-2 mt-3" id="count">Round 0/5</h1>
+
+        <div style="width:min(88vh,100vw); height:min(49.5vh,56.25vw); margin:auto;">
+            <iframe width="100%" height="100%" id="vidEmbed"
+                src=""
+                allowfullscreen
+                >
+            </iframe>
+        </div>
+
+        <p class="fs-4 mt-2" style="margin-bottom: -4px;" id="title">...</p>
+        
+        <div class="input-group input-group-lg mt-3" style="width:220px; margin:auto; font-size: large;">
+            <input type="text" class="form-control fs-4 border-secondary" placeholder="0" id="likes" style="padding-top:1px; padding-bottom:5px;">
+            <button class="btn btn-secondary" type="button" id="guess">
+                <img id="likeBtnIcon" src="../../public/icons/likeLine.svg" alt="Guess" height="24" width="24" style="transform: translateY(-3px) scale(1, 1.1); filter: invert(.5) sepia(1) brightness(1000%);">
+            </button>
+        </div>
+        
+        <div id="stats" style="visibility:hidden;">
+            <div class="m-2 d-flex flex-row justify-content-center">
+
+                <div class="px-2 py-1 w-50" style="filter:opacity(50%);">
+                    <h1 id="views" class="stat" style="font-size:clamp(17px, 3vw, 40px);">???,???</h1>
+                    <img src="../../public/icons/viewFull.svg" alt="Likes" height="35" width="35" style="filter: invert(.5) sepia(1) brightness(1000%);">
+                </div>
+
+                <div class="px-1 py-1 w-50">
+                    <h1 id="likesReal" class="stat" style="font-size:clamp(17px, 3vw, 40px);">???,???</h1>
+                    <img src="../../public/icons/likeFull.svg" alt="Likes" height="35" width="35" style=" filter: invert(.5) sepia(1) brightness(1000%);">
+                </div>
+
+                <div class="px-0 py-1 w-50" style="filter:opacity(50%);">
+                    <h1 id="comments" class="stat" style="font-size:clamp(17px, 3vw, 40px);">???,???</h1>
+                    <img src="../../public/icons/commentFull.svg" alt="Likes" height="35" width="35" style=" filter: invert(.5) sepia(1) brightness(1000%);">
+                </div>
+
+            </div>
+
+            <h2 id="percent" class="stat text-success" style="margin-top:1px">+0%</h2>
+
+            <h2 id="score" class="stat text-primary" style="margin-top:-4px">+0 points</h2>
+
+            <button class="btn btn-lg btn-secondary mt-1" type="button" id="continue">Continue</button>
+        </div>
+        
+    </div>
+
+    <div style="visibility:hidden;" class="position-absolute top-50 start-50 translate-middle text-center" id="resultsDiv">
+        <h1>Score: <span class="text-primary" id="finalScore">69</span></h1>
+        <h1 id="grade" style="font-size: 1500%; margin-top: -60px; margin-bottom: -11px; font-weight: bolder;">A</h1>
+
+        <a class="btn btn-lg btn-danger" role="button" id="end" href="/guess-the-likes">End Game</a>
+    </div>
+
+</Static>
+
