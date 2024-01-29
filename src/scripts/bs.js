@@ -1,4 +1,11 @@
 
+let wWidth = window.innerWidth;
+console.log("window width:" + wWidth);
+if (wWidth < 1200) {
+    let bs = document.getElementById("beat-saber");
+    bs.hidden = true;
+}
+
 function randomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }

@@ -3,9 +3,8 @@ layout: ../../layouts/Blog.astro
 
 title: "Wii Sports"
 date: "July 8, 2023"
-desc: "It's quite fun"
 id: "wii-sports"
-type: "success"
+type: "light"
 ---
 
 # A Long Time Ago

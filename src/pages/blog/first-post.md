@@ -3,7 +3,6 @@ layout: ../../layouts/Blog.astro
 
 title: "First Post"
 date: "October 1, 2022"
-desc: "I made a website! Why?"
 id: "first-post"
 type: "info"
 ---
@@ -25,7 +24,7 @@ class="rounded-bottom mb-0">
 # Website
 
 Give a man a fish, he eats for a day.
-Give a man a playlist of HTML tutorials,  he- huh?
+Give a man a playlist of HTML tutorials, he- huh?
 
 ## Idea
 

@@ -10,6 +10,11 @@ posts.reverse();
 
     <h1 class="title pop">Blog</h1>
     What is that guy up to?
+    <p class="text-center">
+        <span class="text-light   mx-3">general</span>
+        <span class="text-info    mx-3">website</span>
+        <span class="text-warning mx-3">venting</span>
+    </p>
     <hr>
 
     {posts.map((post) => (
@@ -19,7 +24,6 @@ posts.reverse();
             id={post.frontmatter.id}
             type={post.frontmatter.type}
         >
-        {post.frontmatter.desc}
         </Post>
     ))}
 

@@ -3,7 +3,6 @@ layout: ../../layouts/Blog.astro
 
 title: "Too Much"
 date: "Febuary 7, 2023"
-desc: "I got STUFF on my mind"
 id: "too-much"
 type: "warning"
 ---

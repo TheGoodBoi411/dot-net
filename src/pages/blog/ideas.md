@@ -3,7 +3,6 @@ layout: ../../layouts/Blog.astro
 
 title: "Ideas"
 date: "October 29, 2022"
-desc: "Monkey brian has 'em"
 id: "ideas"
 type: "info"
 ---
