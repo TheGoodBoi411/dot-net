@@ -2,7 +2,7 @@
 layout: ../../layouts/Blog.astro
 
 title: "Too Much"
-date: "Febuary 7, 2023"
+date: "February 7, 2023"
 id: "too-much"
 type: "warning"
 ---

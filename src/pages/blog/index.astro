@@ -3,15 +3,24 @@ import Scroll from '../../layouts/Scroll.astro';
 import Post from '../../components/Post.astro';
 
 const posts = await Astro.glob('./*md');
-posts.reverse();
+posts.sort((a, b) => Date.parse(b.frontmatter.date) - Date.parse(a.frontmatter.date));
 ---
+
+<script>
+    document.getElementById("general").addEventListener ("click", sort, false);
+
+    function sort() {
+        var list = document.getElementsByClassName('border');
+        console.log(list);
+    }
+</script>
 
 <Scroll title="The Good Boi - Blog">
 
     <h1 class="title pop">Blog</h1>
     What is that guy up to?
-    <p class="text-center">
-        <span class="text-light   mx-3">general</span>
+    <p class="text-center mt-1">
+        <span id="general" class="text-light mx-3">general</span>
         <span class="text-info    mx-3">website</span>
         <span class="text-warning mx-3">venting</span>
     </p>

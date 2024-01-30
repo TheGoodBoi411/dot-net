@@ -17,7 +17,7 @@ But with a website, I plan to make some stuff I come up with even if it's just s
 ### [Skewed Timer](/timer) : <span class="text-warning">Done</span>
 A timer that is slightly longer or shorter than it seems.
 A good way to mess with people's heads!
-[Instuctions](/projects)
+[Instructions](/projects)
 
 ### [Gallery](/gallery) : <span class="text-warning">Done</span>
 A random collection of images that I have, no other reason.

@@ -23,7 +23,7 @@ Many years later, I got a Wii U, mostly for playing Mario Maker.
 Interestingly, the Wii U has a Wii emulator inside of it, meaning we could get rid of our Wii and start playing games on there.
 My family and I actually played the Wii a lot, Wii Party was - and still might be - our favorite to play together.
 
-Soon enough, I remebered Wii Sports, and after seeing YouTubers such as [Poofesure](https://www.youtube.com/@Poofesure) and [Nicro](https://www.youtube.com/@nicroveda) go for perfect games of bowling, I wanted to go back and try it for myself.
+Soon enough, I remembered Wii Sports, and after seeing YouTubers such as [Poofesure](https://www.youtube.com/@Poofesure) and [Nicro](https://www.youtube.com/@nicroveda) go for perfect games of bowling, I wanted to go back and try it for myself.
 I found a tutorial on how to get a strike every time, and on my second attempt, got the perfect game.
 It was super rewarding, but after that, I didn't really know what else to do with Wii Sports.
 However, Nicro played on Wii Sports *Resort*, which I did not have.
@@ -40,7 +40,7 @@ Soon enough, I stoped playing.
 
 # Today
 
-I recently played Wii Sports Resort again, trying out some neew sports I didn't focus on last time.
+I recently played Wii Sports Resort again, trying out some new sports I didn't focus on last time.
 At this point, I believe I fully understand the skill system and stamps, and I've attempted going for a few.
 I was able to beat Matt in a swordplay duel, play against the island's table tennis teacher, and wakeboard better than before.
 I then decided to mod the game, installing the [Storm Island](https://gamebanana.com/mods/322739) modpack and playing around with it.
