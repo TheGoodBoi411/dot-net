@@ -5,7 +5,7 @@ title: "Recognized"
 date: "January 29, 2024"
 desc: "Absurd that it's happened twice"
 id: "recognized"
-type: "success"
+type: "light"
 ---
 
 ## You Know Up & Down?
