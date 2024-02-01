@@ -47,8 +47,8 @@ class="rounded mb-0">
 Turns out, Aaron had gone through and connected the dots pretty quickly. A later statement says he would've brought this up to me in person (which would have caused me whiplash omg) but I figured I could just reply to the message, considering the surprise had been lost. Can you guess what his favorite map is? Yeah, it's Up & Down. But also Dummy! too, which was refreshing to hear. I responded:
 
 <span class="font-monospace mono-block">
-ah of course, I can never escape from Up & Down lol <br>
-but Dummy! though? That's neat, I haven't it as a favorite yet, thanks for playing :)
+- ah of course, I can never escape from Up & Down lol <br>
+- but Dummy! though? That's neat, I haven't it as a favorite yet, thanks for playing :)
 </span>
 
 Ignoring the obvious grammar error, it was a pretty successful interaction.
@@ -67,8 +67,8 @@ He had like two viewers, one of them being me.
 I decided to pop in and send a few messages, and what does that one other viewer say? Something along the lines of:
 
 <span class="font-monospace mono-block">
-thegoodboi? didn't expect to see you here lol <br>
-modchart man
+- thegoodboi? didn't expect to see you here lol <br>
+- modchart man
 </span>
 
 I explained that the person streaming was a real-life friend, which seemed to be quite interesting to the other person in chat.
@@ -78,20 +78,20 @@ I explained that the person streaming was a real-life friend, which seemed to be
 I also had these stray messages sent in my friend group's main Discord server not too long ago:
 
 <span class="font-monospace mono-block">
-i know im late but i cant believe bro mapped up and down <br>
-thats crazy that the guy gjoes to my old school LOL <br>
-i dont play beat saber anymore cause i got mad at ranked lmao <br>
-my b for fanboying
+- i know im late but i cant believe bro mapped up and down <br>
+- thats crazy that the guy gjoes to my old school LOL <br>
+- i dont play beat saber anymore cause i got mad at ranked lmao <br>
+- my b for fanboying
 </span>
 <span class="font-monospace mono-block">
-He’s so cool!
+- He’s so cool!
 </span>
 
 Which I replied:
 
 <span class="font-monospace mono-block">
-thanks! LOL <br>
-you're the second person who's made that connection, it's quite surreal how far the map has spread
+- thanks! LOL <br>
+- you're the second person who's made that connection, it's quite surreal how far the map has spread
 </span>
 
 I said "second" as in they were the second person I met in real life who played Up & Down, counting out the Twitch chatter.
