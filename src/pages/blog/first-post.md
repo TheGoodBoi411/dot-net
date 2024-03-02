@@ -13,7 +13,7 @@ type: "info"
 
 <p class="mb-1">
 <img 
-src="https://cdn.discordapp.com/attachments/803471147898241027/1026025063515951114/Iamlive.png"
+src="https://ucarecdn.com/f40992b9-5af1-4858-aa35-0803213aaa0a/tay.png"
 alt="tay zonday said this" 
 width="23%" 
 class="rounded-bottom mb-0">

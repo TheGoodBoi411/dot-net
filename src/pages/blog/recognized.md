@@ -38,7 +38,7 @@ until a closer friend of mine sent me a screenshot along with the simple caption
 
 <p class="my-3 text-center">
 <img 
-src="https://cdn.discordapp.com/attachments/803471147898241027/1201748291487014942/aaron_1.png"
+src="https://ucarecdn.com/80eb1fa4-f8fc-478f-8074-7bbde09c50c6/aaron.png"
 alt="aaron.png" 
 width="75%" 
 class="rounded mb-0">
